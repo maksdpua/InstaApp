@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD4BA7144512DECFC2EB2A9 /* libPods-InstaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B88A81ADFD41D9BB3F0B15E /* libPods-InstaApp.a */; };
 		FC8411501BCC437B00BF7F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84114F1BCC437B00BF7F00 /* main.m */; };
 		FC8411531BCC437B00BF7F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8411521BCC437B00BF7F00 /* AppDelegate.m */; };
 		FC8411561BCC437B00BF7F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8411551BCC437B00BF7F00 /* ViewController.m */; };
@@ -14,9 +15,15 @@
 		FC84115C1BCC437B00BF7F00 /* InstaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC84115A1BCC437B00BF7F00 /* InstaApp.xcdatamodeld */; };
 		FC84115E1BCC437B00BF7F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC84115D1BCC437B00BF7F00 /* Assets.xcassets */; };
 		FC8411611BCC437B00BF7F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC84115F1BCC437B00BF7F00 /* LaunchScreen.storyboard */; };
+		FC84116B1BCC440900BF7F00 /* IADataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84116A1BCC440900BF7F00 /* IADataSource.m */; settings = {ASSET_TAGS = (); }; };
+		FC8411701BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84116D1BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		FC8411711BCC4CD000BF7F00 /* IAModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84116F1BCC4CD000BF7F00 /* IAModelItem.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B88A81ADFD41D9BB3F0B15E /* libPods-InstaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F121D20E20FA217C48F0E9 /* Pods-InstaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaApp/Pods-InstaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2516217F1EF06FE212D940D /* Pods-InstaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaApp/Pods-InstaApp.release.xcconfig"; sourceTree = "<group>"; };
 		FC84114B1BCC437B00BF7F00 /* InstaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC84114F1BCC437B00BF7F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC8411511BCC437B00BF7F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +35,12 @@
 		FC84115D1BCC437B00BF7F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8411601BCC437B00BF7F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8411621BCC437B00BF7F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8411691BCC440900BF7F00 /* IADataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IADataSource.h; path = IADataSource/IADataSource.h; sourceTree = "<group>"; };
+		FC84116A1BCC440900BF7F00 /* IADataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IADataSource.m; path = IADataSource/IADataSource.m; sourceTree = "<group>"; };
+		FC84116C1BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IAModelItem+CoreDataProperties.h"; path = "IADataSource/IAModelItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FC84116D1BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IAModelItem+CoreDataProperties.m"; path = "IADataSource/IAModelItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FC84116E1BCC4CD000BF7F00 /* IAModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAModelItem.h; path = IADataSource/IAModelItem.h; sourceTree = "<group>"; };
+		FC84116F1BCC4CD000BF7F00 /* IAModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAModelItem.m; path = IADataSource/IAModelItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD4BA7144512DECFC2EB2A9 /* libPods-InstaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60D0B45BB69229FF26F980C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B88A81ADFD41D9BB3F0B15E /* libPods-InstaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B14301B472FB2F113EF9A2CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44F121D20E20FA217C48F0E9 /* Pods-InstaApp.debug.xcconfig */,
+				E2516217F1EF06FE212D940D /* Pods-InstaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC8411421BCC437B00BF7F00 = {
 			isa = PBXGroup;
 			children = (
 				FC84114D1BCC437B00BF7F00 /* InstaApp */,
 				FC84114C1BCC437B00BF7F00 /* Products */,
+				B14301B472FB2F113EF9A2CF /* Pods */,
+				60D0B45BB69229FF26F980C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +93,8 @@
 		FC84114D1BCC437B00BF7F00 /* InstaApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC8411721BCC4CE500BF7F00 /* IAModelItem */,
+				FC8411681BCC43B200BF7F00 /* IADataSource */,
 				FC8411511BCC437B00BF7F00 /* AppDelegate.h */,
 				FC8411521BCC437B00BF7F00 /* AppDelegate.m */,
 				FC8411541BCC437B00BF7F00 /* ViewController.h */,
@@ -82,6 +117,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FC8411681BCC43B200BF7F00 /* IADataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FC8411691BCC440900BF7F00 /* IADataSource.h */,
+				FC84116A1BCC440900BF7F00 /* IADataSource.m */,
+			);
+			name = IADataSource;
+			sourceTree = "<group>";
+		};
+		FC8411721BCC4CE500BF7F00 /* IAModelItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC84116C1BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.h */,
+				FC84116D1BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.m */,
+				FC84116E1BCC4CD000BF7F00 /* IAModelItem.h */,
+				FC84116F1BCC4CD000BF7F00 /* IAModelItem.m */,
+			);
+			name = IAModelItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC8411651BCC437B00BF7F00 /* Build configuration list for PBXNativeTarget "InstaApp" */;
 			buildPhases = (
+				A7505DC7A129605564CC368D /* Check Pods Manifest.lock */,
 				FC8411471BCC437B00BF7F00 /* Sources */,
 				FC8411481BCC437B00BF7F00 /* Frameworks */,
 				FC8411491BCC437B00BF7F00 /* Resources */,
+				22093A7FFB8B92B38F4CC449 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +205,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22093A7FFB8B92B38F4CC449 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaApp/Pods-InstaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7505DC7A129605564CC368D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC8411471BCC437B00BF7F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -156,7 +246,10 @@
 				FC8411561BCC437B00BF7F00 /* ViewController.m in Sources */,
 				FC84115C1BCC437B00BF7F00 /* InstaApp.xcdatamodeld in Sources */,
 				FC8411531BCC437B00BF7F00 /* AppDelegate.m in Sources */,
+				FC8411711BCC4CD000BF7F00 /* IAModelItem.m in Sources */,
 				FC8411501BCC437B00BF7F00 /* main.m in Sources */,
+				FC8411701BCC4CD000BF7F00 /* IAModelItem+CoreDataProperties.m in Sources */,
+				FC84116B1BCC440900BF7F00 /* IADataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +357,7 @@
 		};
 		FC8411661BCC437B00BF7F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F121D20E20FA217C48F0E9 /* Pods-InstaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaApp/Info.plist;
@@ -275,6 +369,7 @@
 		};
 		FC8411671BCC437B00BF7F00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2516217F1EF06FE212D940D /* Pods-InstaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaApp/Info.plist;
@@ -303,6 +398,7 @@
 				FC8411671BCC437B00BF7F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
