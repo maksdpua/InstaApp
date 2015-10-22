@@ -2,7 +2,7 @@
 //  IAModelItem+CoreDataProperties.m
 //  InstaApp
 //
-//  Created by Maks on 10/12/15.
+//  Created by Maks on 10/18/15.
 //  Copyright © 2015 Maks. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,7 +13,9 @@
 
 @implementation IAModelItem (CoreDataProperties)
 
-@dynamic nameImage;
-@dynamic text;
+@dynamic caption;
+@dynamic dateAdded;
+@dynamic imageURL;
+@dynamic modelID;
 
 @end

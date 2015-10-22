@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  UIImage+OtherPic.h
 //  InstaApp
 //
-//  Created by Maks on 10/12/15.
+//  Created by Maks on 10/21/15.
 //  Copyright © 2015 Maks. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIImage (OtherPic)
 
 @end
-
